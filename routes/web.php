@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', 'ApiController@index');
 Route::get('/gonki', 'ApiController@gonki');
 Route::get('/horror', 'ApiController@horror');
@@ -41,4 +42,3 @@ Route::get('/t17', 'ApiController@t17');
 Route::get('/t18', 'ApiController@t18');
 Route::get('/t19', 'ApiController@t19');
 Route::get('/t20', 'ApiController@t20');
-  

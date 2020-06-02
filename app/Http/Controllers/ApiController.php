@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ApiController extends Controller
 {
  
-{
+
     public function gonki(Request $request)
     {
         return view('gonki');
@@ -125,5 +125,5 @@ class ApiController extends Controller
         return view('t20');
     }
 	
-}
+
 }
