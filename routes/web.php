@@ -42,3 +42,4 @@ Route::get('/t17', 'ApiController@t17');
 Route::get('/t18', 'ApiController@t18');
 Route::get('/t19', 'ApiController@t19');
 Route::get('/t20', 'ApiController@t20');
+Route::get('/getBaskets', 'ApiController@getBaskets');

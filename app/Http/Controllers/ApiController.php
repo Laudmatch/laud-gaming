@@ -125,5 +125,9 @@ class ApiController extends Controller
         return view('t20');
     }
 	
+	public function getBaskets(Request $request)
+    {
+        return (new BasketController())->show();
+    }
 
 }
