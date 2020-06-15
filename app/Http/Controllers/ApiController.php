@@ -124,6 +124,14 @@ class ApiController extends Controller
     {
         return view('t20');
     }
+	public function avtorizacia(Request $request)
+    {
+        return view('avtorizacia');
+    }
+	public function registracia(Request $request)
+    {
+        return view('registracia');
+    }
 	
 	public function getBaskets(Request $request)
     {
